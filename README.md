@@ -1,2 +1,1 @@
-# CF template
-# portfolio
+# CF template portfolio
