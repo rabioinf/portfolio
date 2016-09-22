@@ -1,0 +1,306 @@
+body {
+	position: relative;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.reset-margin {
+	margin-left: -15px;
+  margin-right: -15px;
+}
+
+.header { text-align: center;}
+
+/****** Typography *******/
+h1,
+h2,
+h3 {
+	font-family: Boogaloo, Futura, Helvetica, Arial, sans-serif;
+}
+
+/****** Index/Home Page ******/
+.img-responsive {
+	margin-top: -7%;
+}
+
+.carousel-indicators {
+	padding-bottom: 3%;
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.5);
+	margin-bottom: 20px;
+	padding-bottom: 5%;
+	left: 25%;
+	right: 25%;
+}
+
+.carousel-caption p {
+	font-size: 1.4em;
+}
+
+.carousel-caption .visible-xs h2 {
+	font-size: 1.7em;
+}
+
+.carousel-caption .hidden-xs h2 {
+	font-size: 3em;
+}
+
+.home {
+	text-transform: uppercase;
+}
+
+.home a {
+	color: #f7325f;
+	letter-spacing: 0.05em;
+	font-family: Boogaloo, "Helvetica Neue", Arial, sans-serif;
+	text-decoration: none;
+	/*font-size: 0.8em;*/
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.home>.visible-xs {
+	font-size: 0.9em;
+}
+
+.home>.visible-xs-* {
+	font-size: 1em;
+}
+
+/******* Navigation *******/
+.navbar-right {
+	text-transform: uppercase;
+	font-family: Boogaloo, "Helvetica Neue", Arial, sans-serif;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.anchor {
+	padding-top: 50px;
+}
+
+/****** Work Page ******/
+.work-img {
+	display: block; /* needed to center the element with margin */
+	margin: auto; /* center the image inside the column if it's smaller */
+	max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+	position: relative; /* is needed for .info position: absolute to work */
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.info {
+	display: none;
+	position: absolute; /* let's us move the text around and not worry about the image */
+	top: 15%; /* position the text 15% away from the top */
+	left: 22%;
+	color: #fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+#project-bioinf img {
+	margin: 0 auto;
+}
+
+/****** About Page ******/
+#about {
+	background-color: #fffeea;
+	color: #34495e;
+	padding-top: 50px;
+}
+
+#about .header {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#about .about-padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#about #cat img {
+	margin: 0 auto;
+}
+
+#about .short-intro h3{
+	text-align: center;
+}
+
+.my-story .short-intro p {
+	font-family: Georgia, TimesNewRoman, Palatino, serif;
+}
+
+#about .skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#about .skills h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+#about #skill-list { 
+	margin-left: 10px;
+	text-align: left;
+}
+
+.my-story h3,
+.my-story p {
+	text-align: left;
+}
+
+/****** FAQ Page ******/
+#faq {
+	color: white;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#faq .header {
+	color: black;
+	margin-bottom: 15px;
+}
+
+.modal {
+	color: black;
+	text-align: left;
+}
+
+.modal-button {
+	padding: 15px;
+}
+
+#my-cv {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+#accordion .panel-body {
+	font-family: "Neue Helvetica", Arial, sans-serif;
+	color: black;
+}
+
+#accordion .panel-default>.panel-heading {
+	background-color: #680097;
+	transition: background-color 600ms;
+	-webkit-transition: background-color 600ms;
+}
+
+#accordion .panel-default>.panel-heading:hover {
+	background-color: #8632ab;
+}
+
+#accordion .panel-title {
+	color: white;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+/****** Youtube ******/
+#youtube {
+  margin-bottom: 10px;
+}
+
+/****** Contact Page ******/
+#contact {
+	background-image: url(../img/landscape_small.jpg);
+	background-attachment: fixed;
+	height: 700px;
+	background-position: 0px 900px;
+	width: 100%;
+	color: white;
+	text-align: left;
+	font-size: 110%;
+}
+
+#contact .panel-left { 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contact h1 { font-size: 230%; }
+
+#map {
+	height: 350px;
+	width: 100%;
+}
+
+#contact .email a { 
+	text-decoration: none;
+	color: white;
+}
+
+#contact .address { margin-top: 10px; }
+
+.form-control { margin-bottom: 15px; }
+
+.btn-default {
+	background-color: #e6e6e6;
+	border-color: #adadad;
+	font-size: 1.2em;
+	color: #f7325f;
+	font-family: Boogaloo, "Helvetica Neue", Arial, sans-serif;
+}
+
+.btn-default:hover {
+		background-color: #9d9d9d;
+}
+
+/****** Footer ******/
+.footer-container {
+	margin-top: 10px;
+}
+
+.footer-social {
+	text-align: right;
+	padding-right: 10px;
+}
+
+/****** Old Stuff - not used currently ******/
+.jumbotron {
+	background-image: url("../img/landscape_small.jpg");
+	background-size: cover;
+}
+
+.jumbotron p{
+	color: white;
+}
+
+.jumbotron h1{
+	color: white;
+}
+
